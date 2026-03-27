@@ -1,0 +1,243 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Zenith Wireless Headphones",
+      "sku": "ZWH-001-BLK",
+      "category": "Audio",
+      "price": 299.99,
+      "shortDescription": "Premium over-ear headphones with active noise cancellation",
+      "description": "Premium over-ear headphones with active noise cancellation and 30-hour battery life. Features Bluetooth 5.0, comfortable memory foam ear cups, and studio-quality sound. Perfect for music lovers and professionals.",
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&q=80",
+        "https://images.unsplash.com/photo-1545127398-14699f92334b?w=800&q=80",
+        "https://images.unsplash.com/photo-1577174881658-0f30157d9611?w=800&q=80"
+      ],
+      "colors": ["Black", "Silver", "Navy Blue"],
+      "sizes": ["One Size"],
+      "rating": 4.8,
+      "reviews": 342,
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Minimalist Leather Wallet",
+      "sku": "MLW-002-BRN",
+      "category": "Accessories",
+      "price": 79.99,
+      "shortDescription": "Handcrafted genuine leather wallet with RFID protection",
+      "description": "Handcrafted genuine leather wallet with RFID protection and minimalist design. Features 6 card slots, 2 bill compartments, and a slim profile that fits comfortably in your pocket. Made from premium full-grain leather that ages beautifully.",
+      "images": [
+        "https://images.unsplash.com/photo-1627123424574-724758594e93?w=800&q=80",
+        "https://images.unsplash.com/photo-1627123424626-0e4a0c98e857?w=800&q=80",
+        "https://images.unsplash.com/photo-1614096920383-b3a6e7f0f303?w=800&q=80"
+      ],
+      "colors": ["Brown", "Black", "Tan"],
+      "sizes": ["Standard"],
+      "rating": 4.9,
+      "reviews": 128,
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 3,
+      "name": "Smart Watch Pro",
+      "sku": "SWP-003-SLV",
+      "category": "Electronics",
+      "price": 449.99,
+      "shortDescription": "Advanced fitness tracking with heart rate monitoring",
+      "description": "Advanced fitness tracking, heart rate monitoring, and seamless smartphone integration. Track your workouts, sleep patterns, and daily activity. Features GPS, water resistance up to 50m, and 7-day battery life. Compatible with iOS and Android.",
+      "images": [
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80",
+        "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800&q=80",
+        "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800&q=80",
+        "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&q=80"
+      ],
+      "colors": ["Silver", "Black", "Rose Gold"],
+      "sizes": ["42mm", "46mm"],
+      "rating": 4.7,
+      "reviews": 892,
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 4,
+      "name": "Organic Cotton T-Shirt",
+      "sku": "OCT-004-WHT",
+      "category": "Clothing",
+      "price": 34.99,
+      "shortDescription": "Sustainable, ultra-soft organic cotton tee",
+      "description": "Sustainable, ultra-soft organic cotton tee in minimalist design. Made from 100% certified organic cotton with a relaxed fit. Pre-shrunk, breathable, and perfect for everyday wear. Ethically manufactured with fair trade practices.",
+      "images": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=80",
+        "https://images.unsplash.com/photo-1622445275463-afa2ab738c34?w=800&q=80",
+        "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800&q=80"
+      ],
+      "colors": ["White", "Black", "Gray", "Navy"],
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "rating": 4.6,
+      "reviews": 234,
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 5,
+      "name": "Ceramic Coffee Mug Set",
+      "sku": "CCM-005-CRM",
+      "category": "Home",
+      "price": 49.99,
+      "shortDescription": "Artisan-crafted ceramic mugs, set of 4",
+      "description": "Artisan-crafted ceramic mugs, set of 4, perfect for your morning ritual. Each mug holds 12oz and features a unique glazed finish. Microwave and dishwasher safe. Handmade by local artisans with attention to detail.",
+      "images": [
+        "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=800&q=80",
+        "https://images.unsplash.com/photo-1517256673644-36ad11246d21?w=800&q=80",
+        "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&q=80"
+      ],
+      "colors": ["Cream", "Sage Green", "Terracotta", "Navy"],
+      "sizes": ["12oz"],
+      "rating": 4.5,
+      "reviews": 176,
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 6,
+      "name": "Premium Yoga Mat",
+      "sku": "PYM-006-PRP",
+      "category": "Fitness",
+      "price": 89.99,
+      "shortDescription": "Eco-friendly, non-slip yoga mat with extra cushioning",
+      "description": "Eco-friendly, non-slip yoga mat with extra cushioning for ultimate comfort. Made from natural rubber and microfiber. Features alignment lines, 6mm thickness, and comes with a carrying strap. Perfect for yoga, pilates, and meditation.",
+      "images": [
+        "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=800&q=80",
+        "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?w=800&q=80",
+        "https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?w=800&q=80"
+      ],
+      "colors": ["Purple", "Blue", "Pink", "Green"],
+      "sizes": ["Standard (68\" x 24\")"],
+      "rating": 4.8,
+      "reviews": 456,
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 7,
+      "name": "Vintage Polaroid Camera",
+      "sku": "VPC-007-BLK",
+      "category": "Electronics",
+      "price": 129.99,
+      "shortDescription": "Instant film camera with modern features",
+      "description": "Instant film camera with modern features and classic aesthetic. Self-developing film, built-in flash, and automatic exposure control. Capture and share memories instantly with authentic Polaroid quality.",
+      "images": [
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=800&q=80",
+        "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=800&q=80",
+        "https://images.unsplash.com/photo-1606244864456-8bee63fce472?w=800&q=80"
+      ],
+      "colors": ["Black", "White", "Mint Green"],
+      "sizes": ["One Size"],
+      "rating": 4.4,
+      "reviews": 289,
+      "inStock": false,
+      "featured": false
+    },
+    {
+      "id": 8,
+      "name": "Bamboo Desk Organizer",
+      "sku": "BDO-008-NAT",
+      "category": "Home",
+      "price": 39.99,
+      "shortDescription": "Sustainable bamboo desk organizer",
+      "description": "Sustainable bamboo desk organizer with multiple compartments. Features 5 sections for pens, phones, notepads, and office supplies. Eco-friendly, durable, and adds natural warmth to your workspace.",
+      "images": [
+        "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=800&q=80",
+        "https://images.unsplash.com/photo-1589834390005-5d4fb9bf3d32?w=800&q=80"
+      ],
+      "colors": ["Natural"],
+      "sizes": ["Medium (12\" x 8\")"],
+      "rating": 4.7,
+      "reviews": 198,
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 9,
+      "name": "Stainless Steel Water Bottle",
+      "sku": "SSW-009-BLU",
+      "category": "Accessories",
+      "price": 29.99,
+      "shortDescription": "Insulated water bottle keeps drinks cold 24hrs",
+      "description": "Insulated water bottle keeps drinks cold for 24 hours, hot for 12 hours. Double-wall vacuum insulation, leak-proof lid, and wide mouth opening. BPA-free stainless steel construction. 32oz capacity.",
+      "images": [
+        "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800&q=80",
+        "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=800&q=80",
+        "https://images.unsplash.com/photo-1588873281475-60f0610b35e8?w=800&q=80"
+      ],
+      "colors": ["Blue", "Black", "White", "Pink", "Green"],
+      "sizes": ["32oz", "40oz"],
+      "rating": 4.9,
+      "reviews": 567,
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 10,
+      "name": "Wireless Charging Station",
+      "sku": "WCS-010-BLK",
+      "category": "Electronics",
+      "price": 69.99,
+      "shortDescription": "3-in-1 wireless charger for multiple devices",
+      "description": "3-in-1 wireless charger for phone, watch, and earbuds. Fast charging up to 15W, Qi-certified, and works with all compatible devices. Sleek design with non-slip surface and LED indicator.",
+      "images": [
+        "https://images.unsplash.com/photo-1591290619762-c588f0363f8e?w=800&q=80",
+        "https://images.unsplash.com/photo-1624823183493-ed5832f48f18?w=800&q=80"
+      ],
+      "colors": ["Black", "White"],
+      "sizes": ["Standard"],
+      "rating": 4.6,
+      "reviews": 421,
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 11,
+      "name": "Merino Wool Beanie",
+      "sku": "MWB-011-GRY",
+      "category": "Clothing",
+      "price": 44.99,
+      "shortDescription": "Soft, breathable merino wool beanie",
+      "description": "Soft, breathable merino wool beanie for all-season comfort. Temperature-regulating, moisture-wicking, and naturally odor-resistant. Sustainable merino wool from ethical sources. Stretchy fit for all head sizes.",
+      "images": [
+        "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=800&q=80",
+        "https://images.unsplash.com/photo-1521554439831-6e5d3fdaf4e0?w=800&q=80"
+      ],
+      "colors": ["Gray", "Black", "Navy", "Burgundy"],
+      "sizes": ["One Size"],
+      "rating": 4.7,
+      "reviews": 145,
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 12,
+      "name": "Smart LED Light Bulbs",
+      "sku": "SLL-012-WHT",
+      "category": "Home",
+      "price": 59.99,
+      "shortDescription": "Color-changing smart bulbs with voice control",
+      "description": "Color-changing smart bulbs with voice control compatibility, pack of 4. Works with Alexa, Google Home, and Siri. 16 million colors, scheduling features, and energy-efficient LED technology. Easy setup via smartphone app.",
+      "images": [
+        "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&q=80",
+        "https://images.unsplash.com/photo-1550985616-10810253b84d?w=800&q=80",
+        "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?w=800&q=80"
+      ],
+      "colors": ["White (Multi-color capable)"],
+      "sizes": ["E26 Base"],
+      "rating": 4.5,
+      "reviews": 734,
+      "inStock": true,
+      "featured": true
+    }
+  ]
+}
