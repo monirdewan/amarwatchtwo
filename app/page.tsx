@@ -9,6 +9,7 @@ import { Badge } from "@/components/ui/badge";
 import Header from "@/components/Header";
 import { useCart } from "@/context/CartContext";
 import productsData from "@/data/products.json";
+import ProductCard from "@/components/ui/card-two";
 
 interface Product {
   id: number;
@@ -82,77 +83,25 @@ export default function Home() {
       </section>
 
       {/* Featured Products */}
-      {featuredProducts.length > 0 && (
-        <section className="container mx-auto px-4 py-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Featured This Week</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {featuredProducts.map((product, index) => (
-              <a href={`/product/${product.id}`} key={product.id}>
-                <Card
-                  className="group overflow-hidden border-2 border-transparent hover:border-[#FF6B35] transition-all duration-300 hover:shadow-xl"
-                  style={{ animationDelay: `${index * 0.1}s` }}
-                >
-                  <div className="relative h-64 overflow-hidden bg-gradient-to-br from-[#FFF9F5] to-[#FFE8D6]">
-                    <Image
-                      src={product.images[0]}
-                      alt={product.name}
-                      fill
-                      className="object-cover group-hover:scale-110 transition-transform duration-500"
-                    />
-                    <Badge className="absolute top-4 right-4 bg-[#FF6B35] text-white">
-                      Featured
-                    </Badge>
-                  </div>
-                  <CardContent className="p-6">
-                    <div className="flex items-center gap-2 mb-2">
-                      <Badge variant="outline" className="text-xs">
-                        {product.category}
-                      </Badge>
-                      <div className="flex items-center gap-1 ml-auto">
-                        <Star className="h-4 w-4 fill-[#F7931E] text-[#F7931E]" />
-                        <span className="text-sm font-medium">{product.rating}</span>
-                      </div>
-                    </div>
-                    <h3 className="text-xl font-semibold mb-2 group-hover:text-[#FF6B35] transition-colors">
-                      {product.name}
-                    </h3>
-                    <p className="text-sm text-muted-foreground mb-4 line-clamp-2">
-                      {product.shortDescription}
-                    </p>
-                    <div className="flex items-center justify-between">
-                      <span className="text-2xl font-bold text-[#FF6B35]">
-                        ${product.price.toFixed(2)}
-                      </span>
-                      {product.colors.length > 1 || product.sizes.length > 1 ? (
-                        <Button
-                          onClick={(e) => {
-                            e.preventDefault();
-                            window.location.href = `/product/${product.id}`;
-                          }}
-                          className="bg-[#FF6B35] hover:bg-[#F7931E]"
-                        >
-                          View Product
-                        </Button>
-                      ) : (
-                        <Button
-                          onClick={(e) => {
-                            e.preventDefault();
-                            addToCart(product);
-                          }}
-                          disabled={!product.inStock}
-                          className="bg-[#FF6B35] hover:bg-[#F7931E]"
-                        >
-                          {product.inStock ? "Add to Cart" : "Out of Stock"}
-                        </Button>
-                      )}
-                    </div>
-                  </CardContent>
-                </Card>
-              </a>
-            ))}
-          </div>
-        </section>
-      )}
+     {/* Featured Products */}
+{featuredProducts.length > 0 && (
+  <section className="container mx-auto px-4 py-16">
+    <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
+      Featured This Week
+    </h2>
+
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {featuredProducts.map((product, index) => (
+        <ProductCard
+          key={product.id}
+          product={product}
+          index={index}
+          addToCart={addToCart}
+        />
+      ))}
+    </div>
+  </section>
+)}
 
       {/* Filter & Search Section */}
       <section className="container mx-auto px-4 py-8">
