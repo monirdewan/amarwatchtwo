@@ -2,24 +2,24 @@
 
 import React, { createContext, useContext, useState, useEffect, ReactNode } from "react";
 
-interface Product {
+export interface Product {
   id: number;
   name: string;
-  sku: string;
+  sku?: string;
   category: string;
   price: number;
   images: string[];
   shortDescription: string;
-  description: string;
+  description?: string;
   colors: string[];
   sizes: string[];
   rating: number;
-  reviews: number;
+  reviews?: number;
   inStock: boolean;
-  featured: boolean;
+  featured?: boolean;
 }
 
-interface CartItem extends Product {
+export interface CartItem extends Product {
   quantity: number;
   selectedColor?: string;
   selectedSize?: string;
